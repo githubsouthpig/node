@@ -1,0 +1,31 @@
+git config --global user.name 'githubsouthpig'
+git config --global user.email '236707372@qq.com'
+git init
+# 初始化
+
+
+git add py1.py
+# 添加到暂存区
+
+git commit -m 
+# 提交到仓库
+
+git status
+# 查看状态
+-------------------------------------------------------------
+touch [file]
+git add [file]
+git commit -m '描述信息'
+# 添加文件
+-------------------------------------------------------------
+vi [file]
+git add [file]
+git commit -m '描述信息'
+# 修改文件
+-------------------------------------------------------------
+mr -fr [file]
+git mr [file]
+git commit -m '描述信息'
+# 删除文件
+
+
