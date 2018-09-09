@@ -28,4 +28,26 @@ git mr [file]
 git commit -m '描述信息'
 # 删除文件
 
+git branch [name]
+# 建立新分支
 
+git checkout [name]
+# 切换分支
+
+git tag -a [name] -m '描述信息'
+# 建立一个标签
+
+git show [name]
+# 显示标签内容
+
+git log oneline --all --graph
+# 分组查看所有信息
+
+git merge [name]
+# 合并分支内容
+
+git remote add github https://github.com/githubsouthpig/hello-world.git
+# 远程连接
+
+git push -u github master
+# 往服务器推数据
